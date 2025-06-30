@@ -16,7 +16,7 @@ namespace NzbDrone.Common.Cloud
             Services = new HttpRequestBuilder("https://lidarr.servarr.com/v1/")
                 .CreateFactory();
 
-            Search = new HttpRequestBuilder("https://api.lidarr.audio/api/v0.4/{route}")
+            Search = new HttpRequestBuilder("https://api.musicinfo.pro/api/v0.4/{route}")
                 .KeepAlive()
                 .CreateFactory();
         }
